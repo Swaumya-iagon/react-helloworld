@@ -10,6 +10,7 @@ var config = {
 
   // 设置服务器端口号
   devServer: {
+    disableHostCheck: true,
     inline: true,
     port: 7777
   },
